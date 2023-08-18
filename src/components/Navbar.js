@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './About';
+// import About from './About';
 import PropTypes from 'prop-types'
 
 
@@ -32,9 +32,9 @@ export default function Navbar(props) {
           </div>
         </div>
       </nav>
-      <div className="container" id='about'>
+      {/* <div className="container" id='about'>
         <About/>
-      </div>
+      </div> */}
     </>  
   )
 }
@@ -45,6 +45,6 @@ Navbar.prototypes ={
 }
 
 Navbar.defaultProps = {
-    title: 'TextUtils',
+    title: 'FabulousText',
     abouttext: 'About'
 }
